@@ -1,0 +1,130 @@
+/* global */
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover{
+    padding: 5px 10px;
+    border-radius: 40%;
+    /* background-color: hsl(gray, 20, 100); */
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    
+}
+li{
+    list-style: none;
+    justify-content: space-between;
+}
+
+select{
+    width:10px;
+    border: unset;
+    background-color: transparent;
+    
+}
+.background-img{
+    background: url(media/unnamed.jpg);
+    /* background: no-repeat; */
+    background-size: 100% 100%;
+    
+}
+.header-maker{
+    display: flex;
+    justify-content: space-between;
+}
+.header-maker li{
+    margin:10px 20px 10px 20px;
+}
+#showcase{
+    padding: 150px 40px;
+    color: white;
+}
+#showcase h1{
+    font-size: 40px;
+}
+#showcase p{
+    font-size: 20px;
+}
+.figure-section{
+    margin: 20px;
+}
+.figure-section .figure{
+    margin: 10px;
+    border: .5px solid gray;
+    border-radius: 10%;
+    box-shadow: 3px 3px 1px gray;
+}
+.figure img{
+    border-radius: 10%;
+}
+.figure h2,.figure p{
+    text-align: center;
+}
+/* grid section */
+.grid-section{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.grid-showcase{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.grid-showcase-para{
+    width:40%
+}
+.grid-showdcase-button{
+    width: 20%;}
+.grid-showdcase-button button{
+    border-radius: 20%;
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    float: right;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows:1fr ;
+    grid-gap: 20px;
+}
+.grid #figure-1{
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+.grid #figure-2{
+    grid-column: 2/3;
+}
+.grid #figure-3{
+    grid-column: 3/4;
+}
+.grid #figure-4{
+    grid-column: 2/4;
+}
+.grid #figure-1 h3,
+.grid #figure-2 h3,
+.grid #figure-3 h3,
+.grid #figure-4 h3{
+    color: white;
+    text-align: center;
+}
+
+.figure-border{
+    border: 1px solid white;
+    border-radius: 10%;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    color: white;
+    padding-top: 30px;
+    line-height: 1.6em;
+    text-transform: capitalize;
+}
